@@ -2,18 +2,30 @@
 // that are set in wyrm_core/wy_variables.sass. You'll find wyrm in bower_components if you're looking
 // for a reference.
 
+// frappant variables
+
+$frappant-red: #b11640
+
+//////////////////////////////////////////////////
+
+
+
 $font-awesome-dir:                    "../font/"
 $static-img:                          "../img/"
 $mathjax-color:                       $text-color
 
 $headerlink-color:                    $text-color
 
+$link-color:                          $frappant-red
+$link-color-visited:                  $frappant-red
+$link-color-hover:                    lighten($frappant-red, 6%)
+
 // Code colors
 $text-viewcode-color:                 $green
 $text-codexref-color:                 $text-color
 
 // Definition list colors
-$class-color:                         $blue
+$class-color:                         $frappant-red
 $method-color:                        $gray
 
 // Footer colors
@@ -38,9 +50,9 @@ $menu-link-active:                    $white
 
 // Navigation colors
 $nav-background-color:                $menu-background-color
-$nav-search-background-color:         $blue
+$nav-search-background-color:         $frappant-red
 $nav-search-color:                    $section-background-color
-$nav-link-color:                      $blue
+$nav-link-color:                      $frappant-red
 $nav-link-color-visited:              $purple
 $nav-link-color-hover:                lighten($nav-link-color, 6%) !default
 $nav-link-color-alt:                  hsl(33, 100%, 51%)
@@ -57,3 +69,4 @@ $base-font-family:                    "Lato", "proxima-nova", "Helvetica Neue", 
 $custom-font-family:                  "Roboto Slab", "ff-tisa-web-pro", "Georgia", Arial, sans-serif
 $custom-font-family2:                 Georgia, serif
 $code-font-family:                    Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace
+
