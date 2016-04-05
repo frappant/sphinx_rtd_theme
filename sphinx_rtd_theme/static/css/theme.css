@@ -4377,7 +4377,7 @@ div[class^='highlight'] pre {
   color: #b3b3b3;
 }
 .wy-menu-vertical a:active {
-  background-color: #2980B9;
+  background-color: #b11640;
   cursor: pointer;
   color: #fff;
 }
@@ -4409,7 +4409,7 @@ div[class^='highlight'] pre {
   margin: auto auto 0.809em auto;
   height: 45px;
   width: 45px;
-  background-color: #2980B9;
+  background-color: #b11640;
   padding: 5px;
   border-radius: 100%;
 }
@@ -4539,7 +4539,7 @@ div[class^='highlight'] pre {
   margin-right: 12px;
   height: 45px;
   width: 45px;
-  background-color: #2980B9;
+  background-color: #b11640;
   padding: 5px;
   border-radius: 100%;
 }
